@@ -13,7 +13,8 @@
 
    **Clone the Repository:**
    ```bash   
-   git clone https://github.com/SerobSayadyan/Kafka-simple-project.git
+  git clone https://github.com/SerobSayadyan/Kafka-simple-project.git
+  cd .\Kafka-simple-project\
    ```
 
    **Build the project**

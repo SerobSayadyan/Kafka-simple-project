@@ -68,7 +68,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=${DB_PASSWORD}
     depends_on:
       - kafka
-      - postgres_for_messages
+      - postgres
     networks:
       - app-network
 
@@ -92,11 +92,11 @@ services:
       - SPRING_DATASOURCE_PASSWORD=${DB_PASSWORD}
     depends_on:
       - kafka
-      - postgres_for_messages
+      - postgres
     networks:
       - app-network
 
-  postgres_for_messages:
+  postgres:
     image: postgres:latest
     container_name: ${DB_HOST}
     ports:
