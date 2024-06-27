@@ -12,10 +12,15 @@
 - JDK 21
 
    **Clone the Repository:**
-
    ```bash   
    git clone https://github.com/SerobSayadyan/Kafka-simple-project.git
    ```
+
+   **Build the project**
+
+   ```bash
+  ./mvnw clean package -DskipTest
+  ```
 
 ## Please before running the program make sure you have `.env` file and the environmental variables as shown in [`.env.example`](.env.example)
 
