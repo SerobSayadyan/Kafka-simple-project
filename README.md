@@ -12,7 +12,7 @@
 - JDK 21
 
    **Clone the Repository:**
-- 
+
    ```bash   
    git clone https://github.com/SerobSayadyan/Kafka-simple-project.git
    ```
