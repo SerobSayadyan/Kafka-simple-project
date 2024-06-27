@@ -19,7 +19,7 @@
    **Build the project**
 
    ```bash
-  ./mvnw clean package -DskipTest
+  ./mvnw clean package -DskipTests
   ```
 
 ## Please before running the program make sure you have `.env` file and the environmental variables as shown in [`.env.example`](.env.example)
